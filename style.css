@@ -1,0 +1,54 @@
+body
+{
+    font-family: Inter,  sans-serif;
+    font-size: 11px;
+    color: #FFFFFF;
+    background-color: #5988FF;
+}
+b 
+{
+    color: #FD98FB;
+}
+p
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+h1 
+{
+    font-family: Georgia, serif;
+    font-size: 24px;
+    text-align: center;
+    color:  #D6FF6B;
+    width: 700px;
+    margin: 0 auto;
+    border: 2px solid chocolate;
+    background-color: #5988FF;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+h2
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color:  #D6FF6B;
+    width: 700px;
+    margin: 0 auto;
+    border: 2px solid chocolate;
+    background-color: #5988FF;
+    border-radius: 10px;
+    padding: 5px;
+}
+img
+{
+    margin-top: 10px;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
