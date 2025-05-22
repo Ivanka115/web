@@ -1,54 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 body
 {
-    font-family: Inter,  sans-serif;
-    font-size: 11px;
-    color: #FFFFFF;
-    background-color: #5988FF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #90463C;
 }
 b 
 {
-    color: #FD98FB;
+    color: #DCBC95;
+    margin-bottom: 10px;
 }
 p
 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 12px;
     width: 900px;
-    margin: 0 auto;
-    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
 }
 h1 
 {
-    font-family: Georgia, serif;
     font-size: 24px;
     text-align: center;
-    color:  #D6FF6B;
+    color:  #B39F6F;
     width: 700px;
-    margin: 0 auto;
-    border: 2px solid chocolate;
-    background-color: #5988FF;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #67212B;
     border-radius: 10px;
     margin-bottom: 10px;
     padding: 5px;
 }
+@keyframes color-change {
+  0%   { 
+        color:  #B39F6F; 
+        background-color: #79B9B8;
+    }
+  50%  { 
+        color: #41748f; 
+        background-color: #8fcaca;
+    }
+  100% {
+        color:  #B39F6F;
+        background-color: #79B9B8;
+    }
+}
+h1:hover
+{
+    animation: color-change 3s infinite;
+}
 h2
 {
-    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     text-align: center;
-    color:  #D6FF6B;
+    color: #B39F6F;
     width: 700px;
-    margin: 0 auto;
-    border: 2px solid chocolate;
-    background-color: #5988FF;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #67212B;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
+}
+ul 
+{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+li 
+{
+    margin-bottom: 10px;
+    text-align: justify;
+}
+a 
+{
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    color: #DCBC95;
+    background-color: #67212B;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #B39F6F;
 }
 img
 {
-    margin-top: 10px;
-    width: 350px;
-    height: 350px;
+    width: 550px;
+    height: 550px;
     object-fit: cover;
     border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #B39F6F;
+    margin-bottom: 10px;
+}
+iframe
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
